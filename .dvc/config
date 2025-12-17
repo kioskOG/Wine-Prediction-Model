@@ -1,0 +1,4 @@
+[core]
+    remote = wine-remote
+['remote "wine-remote"']
+    url = s3://test-atlantis
