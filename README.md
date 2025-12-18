@@ -15,12 +15,6 @@ git add data/wine_sample.csv.dvc
 git remote add origin git@github.com:kioskOG/Wine-Prediction-Model.git
 git add . && git commit -m "dvc with s3" && git push -u origin main -->
 
-
-Here’s a **clean, professional, production-quality README** you can directly drop into your repo.
-I’ve structured it the way **real ML + DVC + S3 projects** are documented, not just a command dump.
-
----
-
 # 🍷 Wine Prediction Model
 
 **ML dataset versioning with DVC + S3 backend**
