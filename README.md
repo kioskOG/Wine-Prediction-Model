@@ -171,6 +171,21 @@ dvc pull
 
 ---
 
+## Now we come to the rollback
+
+Now in this case we will rollback to the first version of data & then back to main i.e. current version (3rd version)
+
+```bash
+git status
+git log --oneline # find the commit hash on which you want to rollback
+git checkout 4c5c7a3
+dvc status
+dvc pull
+git checkout main
+dvc pull
+```
+---
+
 ## 🔐 Notes on Security & Best Practices
 
 * Do **not** commit AWS credentials
